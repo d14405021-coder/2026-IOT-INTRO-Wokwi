@@ -1,5 +1,5 @@
 THIS_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
-ROOT     := $(abspath $(THIS_DIR)/../../../../..)
+ROOT     := $(abspath $(THIS_DIR)/../../../..)
 
 PORT   ?= 4000
 SCRIPT := main.py
